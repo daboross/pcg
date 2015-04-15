@@ -1,3 +1,4 @@
+#![feature(negate_unsigned)]
 //! An implementation of the [PCG](http://www.pcg-random.org) random number generator, which is only
 //! slightly slower than `rand::XorShiftRng` while providing higher-quality output.
 //!
